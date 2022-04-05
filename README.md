@@ -1,6 +1,6 @@
 # Wordclock
 ## This repo contains a wordclock project, from design to code.
----
+
 Currently the script works on a terminal, printing the time as natural language (in Pt-br). There are no dependencies, download `wordclock.py` and run it with python3. It works on mac, linux and windows. The other file, `wordclock_raspberrypi.py` is currently being developed to interact with an individually addressable LED strip, lighting up the LEDs that make up the words to display the current time.
 
 ---
