@@ -1,0 +1,95 @@
+# TODO
+# > rank words by frequency of letters or rank individual letters
+# > create a dict with an index for each letter
+# > print a sample frontplate to the terminal
+
+"""
+###### TESTES ######
+são meia noite e meia
+são meio dia e vinte e cinco
+são quatro e trinta e cinco da manhã
+são vinte pras quatro da manhã
+são cinco e cinco da manhã
+são oito e vinte e cinco da manhã
+são dez e trinta e cinco da manhã
+são cinco pra uma da tarde 
+são duas e vinte e cinco da tarde
+são quatro e trinta e cinco da tarde
+são sete e vinte e cinco da noite
+são vinte pras nove
+são dez pras dez
+é meia noite
+são dez pra meia noite
+######        ######
+
+sao é
+tres cinco (erika)
+uma quatro vinte
+duas oito
+onze seis dez
+nove quinze u (eu)
+doze sete e (te com o e debaixo)
+pras meio dia da e
+vinte meia quinze
+noite trinta e
+nove duas uma sete
+(amo) dez seis oito
+quatro tres cinco
+horas dia e meia da
+manhã tarde noite
+
+"""
+"""
+S   Ã   O   É   O   J   G   T   U   E   W   Z   N   X   A  -
+E   T   R   Ê   S   C   I   N   C   O   R   F   Y   B   P  -
+U   M   A   Q   U   A   T   R   O   P   V   I   N   T   E  -
+D   H   W   D   U   A   S   Q   O   I   T   O   K   V   I  -
+O   N   Z   E   G   S   E   I   S   B   D   E   Z   A   Y  -
+K   J   N   O   V   E   B   Q   U   I   N   Z   E   U   F  -
+W   R   D   O   Z   E   F   S   E   T   E   B   E   H   T  -
+P   R   A   S   M   E   I   O   V   D   I   A   D   A   E  -
+V   I   N   T   E   M   E   I   A   Q   U   I   N   Z   E  -
+N   O   I   T   E   T   R   I   N   T   A   E   F   Y   X  -
+N   O   V   E   D   U   A   S   U   M   A   S   E   T   E  -
+A   M   O   D   E   Z   S   E   I   S   H   O   I   T   O  -
+Q   U   A   T   R   O   T   R   E   S   C   I   N   C   O  -
+H   O   R   A   S   D   I   A   E   M   E   I   A   D   A  -
+M   A   N   H   Ã   T   A   R   D   E   N   O   I   T   E  -
+"""
+
+"""
+S0   Ã1   O2   É3   O4   J5   G6   T7   U8   E9   W10  Z11  N12  X13  A14
+E15  T16  R17  Ê18  S19  C20  I21  N22  C23  O24  R25  F26  Y27  B28  P29
+U30  M31  A32  Q33  U34  A35  T36  R37  O38  P39  V40  I41  N42  T43  E44
+D45  H46  W47  D48  U49  A50  S51  Q52  O53  I54  T55  O56  K57  V58  I59
+O60  N61  Z62  E63  G64  S65  E66  I67  S68  B69  D70  E71  Z72  A73  Y74
+K75  J76  N77  O78  V79  E80  B81  Q82  U83  I84  N85  Z86  E87  U88  F89
+W90  R91  D92  O93  Z94  E95  F96  S97  E98  T99  E100 B101 E102 H103 T104
+P105 R106 A107 S108 M109 E110 I111 O112 V113 D114 I115 A116 D117 A118 E119
+V120 I121 N122 T123 E124 M125 E126 I127 A128 Q129 U130 I131 N132 Z133 E134
+N135 O136 I137 T138 E139 T140 R141 I142 N143 T144 A145 E146 F147 Y148 X149
+N150 O151 V152 E153 D154 U155 A156 S157 U158 M159 A160 S161 E162 T163 E164
+A165 M166 O167 D168 E169 Z170 S171 E172 I173 S174 H175 O176 I177 T178 O179
+Q180 U181 A182 T183 R184 O185 T186 R187 E188 S189 C190 I191 N192 C193 O194
+H195 O196 R197 A198 S199 D200 I201 A202 E203 M204 E205 I206 A207 D208 A209
+M210 A211 N212 H213 Ã214 T215 A216 R217 D218 E219 N220 O221 I222 T223 E224
+"""
+
+"""
+- função para ligar todas as leds
+- E pode ser qualquer um (choice entre opções)
+- da /horas/manhã/noite 10% de chance por hora (hora inteira)
+- se menos que 4 palavras, coloca o da noite/manhã/tarde (exceto meio dia/noite)
+- Draw stuff randomly for 5 minutes, or until button pressed. If
+button pressed first, draw for 30 minutes or until button pressed again.
+
+
+Partes:
+- MDF 55x55cm 3mm grossura.
+- Material para criar os compartimentos das LEDs (cerquinha).
+- Acrílico 3mm de 55cm2. (nesse caso foi vídro, preciso testar com acrílico)
+- Gráfica: Filme preto com design das letras cortadas.
+- Fios para interconectar os LEDs
+- 
+
+"""
